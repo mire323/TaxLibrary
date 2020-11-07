@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bcP1oqPXNQxSSWehUq89A3rgdhx8pI+dp3+o92CIHsmMKRJOkNnWXbkRDw3cfcLrC9kOYTsW8jeNjUwiv2E0rg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tarab\\source\\repos\\TaxLibrary\\TaxLibrary\\TaxLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tarab\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tarab\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
