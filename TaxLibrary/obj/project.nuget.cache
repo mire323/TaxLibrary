@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "GXbNxMDBJDJU0aExGJIqeauAeP1a8jh/kHkJvdQDMREbTeITbk3oBLX6GlZX9MPXdt3Na/WBr8YfBwg5l8n3UA==",
+  "dgSpecHash": "hwcnzBtTMaOKpsb4+vvmSgrZSm8BfMosz02EgRD9ZByYDgZ9QW9Ou8U2nljYUfqai9bE/4Ssf+0YjNyCHaajEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tarab\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\tarab\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\tarab\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\tarab\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\tarab\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\tarab\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
