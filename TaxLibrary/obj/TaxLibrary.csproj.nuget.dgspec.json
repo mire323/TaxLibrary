@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tarab\\source\\repos\\TaxLibrary\\TaxLibrary\\TaxLibrary.csproj": {}
+    "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tarab\\source\\repos\\TaxLibrary\\TaxLibrary\\TaxLibrary.csproj": {
+    "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tarab\\source\\repos\\TaxLibrary\\TaxLibrary\\TaxLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
         "projectName": "TaxLibrary",
-        "projectPath": "C:\\Users\\tarab\\source\\repos\\TaxLibrary\\TaxLibrary\\TaxLibrary.csproj",
+        "projectPath": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
         "packagesPath": "C:\\Users\\tarab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tarab\\source\\repos\\TaxLibrary\\TaxLibrary\\obj\\",
+        "outputPath": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tarab\\AppData\\Roaming\\NuGet\\NuGet.Config",
