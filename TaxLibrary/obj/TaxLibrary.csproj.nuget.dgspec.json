@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\GitHub\\Luka63-17\\TaxLibrary\\TaxLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj": {
+    "C:\\Users\\Admin\\Desktop\\GitHub\\Luka63-17\\TaxLibrary\\TaxLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\GitHub\\Luka63-17\\TaxLibrary\\TaxLibrary.csproj",
         "projectName": "TaxLibrary",
-        "projectPath": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
-        "packagesPath": "C:\\Users\\tarab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\GitHub\\Luka63-17\\TaxLibrary\\TaxLibrary.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\GitHub\\Luka63-17\\TaxLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tarab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "OpenJDK.BigMathNET": {
+              "target": "Package",
+              "version": "[1.0.2.1, )"
+            },
             "System.Collections": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -59,7 +63,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
