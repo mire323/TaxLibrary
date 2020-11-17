@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj": {}
+    "C:\\Users\\tarab\\source\\repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj": {
+    "C:\\Users\\tarab\\source\\repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\tarab\\source\\repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
         "projectName": "TaxLibrary",
-        "projectPath": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
+        "projectPath": "C:\\Users\\tarab\\source\\repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
         "packagesPath": "C:\\Users\\tarab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tarab\\Source\\Repos\\TaxLibraryGit\\TaxLibrary\\obj\\",
+        "outputPath": "C:\\Users\\tarab\\source\\repos\\TaxLibraryGit\\TaxLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tarab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -36,14 +36,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            },
             "System.Collections": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -59,6 +53,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }

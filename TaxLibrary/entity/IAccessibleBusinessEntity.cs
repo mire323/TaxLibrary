@@ -15,17 +15,17 @@ namespace TaxLibrary.entity
             return GetType().Name;
         }
 
-        BusinessId sysgetBusinessId()
+        BusinessId SysgetBusinessId()
         {
             return new BusinessId(new EntityType(SysgetBusinessName()), GetId());
         }
 
-        BusinessId sysgetBusinessMasterId()
+        BusinessId SysgetBusinessMasterId()
         {
             return new BusinessId(new EntityType(SysgetBusinessName()), GetMasterId());
         }
 
-        String dump()
+        string Dump()
         {
             return ToString();
         }
