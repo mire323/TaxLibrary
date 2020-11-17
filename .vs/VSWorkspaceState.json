@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TaxLibrary",
+    "\\TaxLibrary\\bin\\Debug",
+    "\\TaxLibrary\\bin\\Release",
+    "\\TaxLibrary\\bin\\Release\\netstandard2.0",
+    "\\TaxLibrary\\logging",
+    "\\TaxLibrary\\obj\\Debug"
+  ],
+  "SelectedNode": "\\TaxLibrary\\obj",
+  "PreviewInSolutionExplorer": false
+}
