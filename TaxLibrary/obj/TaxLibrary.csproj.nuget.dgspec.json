@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
             "OpenJDK.BigMathNET": {
               "target": "Package",
               "version": "[1.0.2.1, )"
