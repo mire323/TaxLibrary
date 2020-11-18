@@ -1,4 +1,4 @@
-TaxLibrary/obj/*
+TaxLibrary/obj/*.json
 TaxLibrary/obj/Debug/*
 TaxLibrary/obj/Release/*
 
