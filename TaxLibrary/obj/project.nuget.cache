@@ -1,15 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "+n9of8cI788b23BjDZKin/D8/BXLVA7rE+h98MGhk5KDClNZwqQMEdSec1/At5j9s/ZIC0mek7Xo+sKr+QGQBA==",
+  "dgSpecHash": "CT/wigbDb0aVrmT9r723wn5wQad/VkZA1UmtiN9IvvJtJMKP3jX8B880RrxSn8qYealr2ea8NflYErEWHezgcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tarab\\source\\repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\GitHub\\Luka63-17\\TaxLibrary\\TaxLibrary\\TaxLibrary\\TaxLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tarab\\.nuget\\packages\\ikvm\\8.1.5717\\ikvm.8.1.5717.nupkg.sha512",
-    "C:\\Users\\tarab\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\tarab\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\tarab\\.nuget\\packages\\openjdk.bigmathnet\\1.0.2.1\\openjdk.bigmathnet.1.0.2.1.nupkg.sha512",
-    "C:\\Users\\tarab\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
-    "C:\\Users\\tarab\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\ikvm\\8.1.5717\\ikvm.8.1.5717.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\nodatime\\3.0.3\\nodatime.3.0.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\openjdk.bigmathnet\\1.0.2.1\\openjdk.bigmathnet.1.0.2.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": [
     {
