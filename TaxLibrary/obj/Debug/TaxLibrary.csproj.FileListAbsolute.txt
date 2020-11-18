@@ -6,3 +6,4 @@ C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\bin\Debug\TaxLibrary.dll
 C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\bin\Debug\TaxLibrary.pdb
 C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\TaxLibrary.dll
 C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\TaxLibrary.pdb
+C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\TaxLibrary.csprojAssemblyReference.cache

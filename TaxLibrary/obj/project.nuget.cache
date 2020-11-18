@@ -1,13 +1,36 @@
 {
   "version": 2,
-  "dgSpecHash": "Hw8XFNmxr66FyTnM3d30K8durMThOJ171GvT4pSOppAdKiIpiV0tPJ2dnymQ+c+FnyZ121FDNOo2JGRxIZkaOQ==",
+  "dgSpecHash": "+n9of8cI788b23BjDZKin/D8/BXLVA7rE+h98MGhk5KDClNZwqQMEdSec1/At5j9s/ZIC0mek7Xo+sKr+QGQBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tarab\\source\\repos\\TaxLibraryGit\\TaxLibrary\\TaxLibrary.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tarab\\.nuget\\packages\\ikvm\\8.1.5717\\ikvm.8.1.5717.nupkg.sha512",
     "C:\\Users\\tarab\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\tarab\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\tarab\\.nuget\\packages\\openjdk.bigmathnet\\1.0.2.1\\openjdk.bigmathnet.1.0.2.1.nupkg.sha512",
     "C:\\Users\\tarab\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\tarab\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'IKVM 8.1.5717' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "IKVM",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenJDK.BigMathNET 1.0.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenJDK.BigMathNET",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

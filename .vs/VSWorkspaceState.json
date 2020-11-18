@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TaxLibrary"
   ],
+  "SelectedNode": "\\TaxLibrary\\TaxLibrary.csproj",
   "PreviewInSolutionExplorer": false
 }

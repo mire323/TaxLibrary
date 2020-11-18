@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "OpenJDK.BigMathNET": {
+              "target": "Package",
+              "version": "[1.0.2.1, )"
+            },
             "System.Collections": {
               "target": "Package",
               "version": "[4.3.0, )"
