@@ -1,6 +1,11 @@
 TaxLibrary/obj/*.json
 TaxLibrary/obj/Debug/*
 TaxLibrary/obj/Release/*
+TaxLibrary/obj
 
 TaxLibrary/bin/*
-.vs
+TaxLibrary/bin
+
+.vs/
+.vs/TaxLibrary
+.vs/TaxLibrary/*
