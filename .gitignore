@@ -1,2 +1,6 @@
-TaxLibrary/obj
-TaxLibrary/bin
+TaxLibrary/obj/*
+TaxLibrary/obj/Debug/*
+TaxLibrary/obj/Release/*
+
+TaxLibrary/bin/*
+.vs
