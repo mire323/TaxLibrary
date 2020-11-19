@@ -10,7 +10,7 @@ namespace TaxLibrary.exception
     public class TaxException : Exception
     {
 
-        private List<string> keys = new List<string>();
+        private readonly List<string> keys = new List<string>();
 
         public TaxException() : base()
         {

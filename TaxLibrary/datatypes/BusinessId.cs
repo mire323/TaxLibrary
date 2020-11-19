@@ -16,10 +16,10 @@ namespace TaxLibrary.datatypes
             MASTER_ID
         }
 
-        private EntityType entityType;
-        private IdType idType;
-        private TaxId entityId;
-        private string value;
+        private readonly EntityType entityType;
+        private readonly IdType idType;
+        private readonly TaxId entityId;
+        private readonly string value;
 
         private BusinessId(EntityType entityType, IdType idType, TaxId entityId)
         {

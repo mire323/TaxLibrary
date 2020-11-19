@@ -38,7 +38,7 @@ namespace TaxLibrary.datatypes
             return value;
         }
 
-        public static bool isEmpty(TaxId id)
+        public static bool IsEmpty(TaxId id)
         {
             return id == null || id.value.Trim().Equals("0");
         }
