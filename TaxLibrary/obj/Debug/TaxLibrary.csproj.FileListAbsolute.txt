@@ -1,8 +1,0 @@
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\TaxLibrary.AssemblyInfoInputs.cache
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\TaxLibrary.AssemblyInfo.cs
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\TaxLibrary.csproj.CoreCompileInputs.cache
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\bin\Debug\TaxLibrary.deps.json
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\bin\Debug\TaxLibrary.dll
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\bin\Debug\TaxLibrary.pdb
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\TaxLibrary.dll
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\TaxLibrary.pdb

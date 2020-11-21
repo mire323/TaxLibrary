@@ -20,14 +20,14 @@ namespace TaxLibrary.datatypes
             this.value = date;
         }
 
-        public Date(DateTime date)
+        public Date(System.DateTime date)
         {
             this.value = LocalDate.FromDateTime(date);
         }
 
         public static Date Now()
         {
-            return new Date(DateTime.Now);
+            return new Date(System.DateTime.Now);
         }
 
         public string ToFormattedString(CultureInfo cultureInfo)
@@ -50,6 +50,23 @@ namespace TaxLibrary.datatypes
         }
 
         public int CompareTo(DateTime other)
+        {
+            if (Year != other.Year)
+            {
+                return Year < other.Year ? -1 : 1;
+            }
+            if (Month != other.Month)
+            {
+                return Month < other.Month ? -1 : 1;
+            }
+            if (Day != other.Day)
+            {
+                return Day < other.Day ? -1 : 1;
+            }
+            return 0;
+        }
+
+        public int CompareTo(LocalDate other)
         {
             if (Year != other.Year)
             {
@@ -98,6 +115,45 @@ namespace TaxLibrary.datatypes
                 return false;
             }
             return true;
+        }
+
+        public bool IsSameDateAs(LocalDate other)
+        {
+            if (Year != other.Year)
+            {
+                return false;
+            }
+            if (Month != other.Month)
+            {
+                return false;
+            }
+            if (Day != other.Day)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public Date Plus(int amountToAdd, PeriodUnits unit)
+        {
+            if (PeriodUnits.Years.Equals(unit))
+                this.value.Plus(Period.FromYears(amountToAdd));
+            if (PeriodUnits.Months.Equals(unit))
+                this.value.Plus(Period.FromMonths(amountToAdd));
+            if (PeriodUnits.Days.Equals(unit))
+                this.value.Plus(Period.FromDays(amountToAdd));
+            return this;
+        }
+
+        public Date Minus(int amountToRemove, PeriodUnits unit)
+        {
+            if (PeriodUnits.Years.Equals(unit))
+                this.value.Minus(Period.FromYears(amountToRemove));
+            if (PeriodUnits.Months.Equals(unit))
+                this.value.Minus(Period.FromMonths(amountToRemove));
+            if (PeriodUnits.Days.Equals(unit))
+                this.value.Minus(Period.FromDays(amountToRemove));
+            return this;
         }
 
         public override string ToString()
