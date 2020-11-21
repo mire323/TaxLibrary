@@ -1,4 +1,0 @@
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\net48\TaxLibrary.csprojAssemblyReference.cache
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\net48\TaxLibrary.AssemblyInfoInputs.cache
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\net48\TaxLibrary.AssemblyInfo.cs
-C:\Users\tarab\source\repos\TaxLibraryGit\TaxLibrary\obj\Debug\net48\TaxLibrary.csproj.CoreCompileInputs.cache
