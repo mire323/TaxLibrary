@@ -17,10 +17,10 @@ namespace TaxLibrary.App.Business.Actions
         public AbstractTaxAction(TaxActionType type) : base()
         {
             SetType(type);
-            SetName(this.GetType().Name);
-            SetTitle(this.GetType().Name + ".title");
-            SetDescription(this.GetType().Name + ".description");
-            SetSuccessDescription(this.GetType().Name + ".success");
+            SetName(GetType().Name);
+            SetTitle(GetType().Name + ".title");
+            SetDescription(GetType().Name + ".description");
+            SetSuccessDescription(GetType().Name + ".success");
         }
 
         protected void SetName(String name)
