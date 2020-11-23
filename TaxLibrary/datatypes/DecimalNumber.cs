@@ -7,7 +7,7 @@ namespace TaxLibrary.datatypes
 {
     class DecimalNumber
     {
-        protected static readonly BigDecimal ZERO = java.math.BigDecimal.ZERO;
+        protected static readonly BigDecimal ZERO = BigDecimal.ZERO;
         protected static readonly RoundingMode DEFAULT_ROUNDING_MODE = RoundingMode.HALF_EVEN;
 
         private BigDecimal value;
@@ -15,49 +15,39 @@ namespace TaxLibrary.datatypes
 
         public DecimalNumber(int decimals)
         {
-            setPrecision(decimals);
-            setValue(ZERO);
+            SetPrecision(decimals);
+            Value = ZERO;
         }
 
         public DecimalNumber(int decimals, BigDecimal value) : this(decimals)
         {
-            setValue(value);
+            Value = value;
         }
 
         // Nisam siguran sta ovde treba uopste
         //public final BigDecimal protected static BigDecimal ZERO => zERO;
 
-        public BigDecimal getValue()
-        {
-            return value;
-        }
 
-        private void setPrecision(int decimals)
+        public BigDecimal Value { get { return this.value; } set { this.value = value.setScale(decimals, DEFAULT_ROUNDING_MODE); }  }
+        public int Decimal { get { return this.decimals; } set { this.decimals = value; } }
+
+        private void SetPrecision(int decimals)
         {
             this.decimals = decimals;
         }
+        
 
-        public int getPrecision()
+        public void Add(DecimalNumber otherValue)
         {
-            return decimals;
+            this.value = value.add(otherValue.Value).setScale(decimals, DEFAULT_ROUNDING_MODE);
         }
 
-        public void setValue(BigDecimal value)
+        public void Subtract(DecimalNumber otherValue)
         {
-            this.value = value.setScale(decimals, DEFAULT_ROUNDING_MODE);
+            this.value = value.subtract(otherValue.Value).setScale(decimals, DEFAULT_ROUNDING_MODE);
         }
 
-        public void add(DecimalNumber otherValue)
-        {
-            this.value = value.add(otherValue.getValue()).setScale(decimals, DEFAULT_ROUNDING_MODE);
-        }
-
-        public void subtract(DecimalNumber otherValue)
-        {
-            this.value = value.subtract(otherValue.getValue()).setScale(decimals, DEFAULT_ROUNDING_MODE);
-        }
-
-        public void multiply(Int32 otherValue)
+        public void Multiply(Int32 otherValue)
         {
             this.value = value.multiply(new BigDecimal(otherValue)).setScale(decimals, DEFAULT_ROUNDING_MODE);
         }

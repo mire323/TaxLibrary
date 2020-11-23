@@ -9,25 +9,25 @@ namespace TaxLibrary.datatypes
     {
         private static long serialVersionUID = 1L;
         private static int NUMBER_OF_AMOUNT_DECIMALS = 2;
-        private static readonly BigDecimal ZERO_VALUE = (new Amount(DecimalNumber.ZERO)).getValue();
+        private static readonly BigDecimal ZERO_VALUE = (new Amount(DecimalNumber.ZERO)).Value;
 
         public Amount(BigDecimal value) : base(NUMBER_OF_AMOUNT_DECIMALS)
         {
-            setValue(value);
+            Value = value;
         }
 
         public Amount(double value) : this(BigDecimal.valueOf(value))
         {
         }
 
-        public void add(Amount otherValue)
+        public void Add(Amount otherValue)
         {
-            setValue(getValue().add(otherValue.getValue()));
+            Value = Value.add(otherValue.Value);
         }
 
-        public void subtract(Amount otherValue)
+        public void Subtract(Amount otherValue)
         {
-            setValue(getValue().subtract(otherValue.getValue()));
+            Value = Value.subtract(otherValue.Value); 
         }
     }
 }
